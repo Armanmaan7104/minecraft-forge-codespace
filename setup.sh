@@ -4,6 +4,7 @@
 # - PufferPanel Web Management Dashboard
 # - Minecraft Forge 1.20.1 Server (Automated headless build & install)
 # - Playit.gg Tunnel (Exposes Minecraft port 25565 without port forwarding)
+sudo rm -f /etc/apt/sources.list.d/yarn.list
 # ==============================================================================
 
 set -euo pipefail
