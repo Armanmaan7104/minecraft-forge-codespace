@@ -1,12 +1,13 @@
 {
-  "name": "Minecraft Forge 1.20.1 & PufferPanel",
+  "name": "Minecraft Forge 1.20.1 & MCSManager",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "forwardPorts": [8080],
   "portsAttributes": {
     "8080": {
-      "label": "PufferPanel Web Dashboard",
+      "label": "MCSManager Web Dashboard",
       "onAutoForward": "openBrowser"
     }
   },
-  "postCreateCommand": "bash ./setup.sh"
+  "postCreateCommand": "bash ./setup.sh",
+  "postStartCommand": "bash ./start-all.sh"
 }
